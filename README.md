@@ -16,7 +16,7 @@ The dataset is available through NYC Open Data: https://data.cityofnewyork.us/He
 #    if row["BORO"] == "Manhattan":
 #        count += 1
 #print(count)
-#output: 109349
+#output: 425
 
 Why the data structure supports this question:
 This works because the dataset is tabular: each row represents a restaurant inspection record, and the BORO column stores the borough where the restaurant is located. Since each row is one observation, counting the rows where BORO equals "Manhattan" gives the total number of Manhattan restaurant inspection records.
@@ -28,7 +28,7 @@ This works because the dataset is tabular: each row represents a restaurant insp
 #    if row["GRADE"] == "A":
 #        a_count += 1
 #print(a_count)
-#output: 97795
+#output: 64
 
 Why the data structure supports this question:
 This works because the GRADE column stores the inspection grade for each record. We can check the value of the GRADE column for every row and count the rows where the grade is "A". The list of dictionaries structure makes it easy to access the GRADE value for each inspection record.
@@ -41,7 +41,7 @@ This works because the GRADE column stores the inspection grade for each record.
 #        if row["GRADE"] == "A":
 #            manhattan_a += 1
 #print(manhattan_a)
-#output: 37968
+#output: 21
 
 Why the data structure supports this question:
 This works because we can filter rows using two conditions: BORO must be "Manhattan" and GRADE must be "A". The dataset's one-row-per-inspection-record structure makes it possible to combine these conditions and count the inspection records that meet both requirements.

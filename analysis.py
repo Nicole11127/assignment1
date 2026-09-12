@@ -55,7 +55,4 @@ for row in restaurants:
     if row["BORO"]=="Manhattan":
         if row["GRADE"]=="A":
             manhattan_a+=1
-        elif row["GRADE"]!="A":
-            manhattan_not_a+=1
 print("Manhattan A grade:",manhattan_a)
-print("Manhattan not A grade:",manhattan_not_a)

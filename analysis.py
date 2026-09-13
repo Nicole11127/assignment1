@@ -44,9 +44,13 @@ print(count)
 a_count=0
 not_a_count=0
 for row in restaurants:
-    if row["GRADE"]=="A":
+    grade=row["GRADE"]
+    if grade=="A":
         a_count+=1
+    elif grade and grade.strip()!="":
+        not_a_count+=1
 print("A grade:", a_count)
+print("Not A grade:", not_a_count)
 
 # how many Manhattan restaurants received an A grade?
 manhattan_a=0
@@ -55,4 +59,7 @@ for row in restaurants:
     if row["BORO"]=="Manhattan":
         if row["GRADE"]=="A":
             manhattan_a+=1
+        else:
+            manhattan_not_a+=1
 print("Manhattan A grade:",manhattan_a)
+print("Manhattan not A grade:",manhattan_not_a)

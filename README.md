@@ -3,7 +3,7 @@
 ## Why I chose this dataset
 I chose the NYC restaurant inspection results dataset because it contains real inspectation records from restaurants in New York City. It is easy to understand because each row represents a restaurant inspection record, and the columns describe information about the restaurant and its inspection, such as borough, cuisine, inspection date, and grade.
 
-The dataset it also useful for asking questions about restaurant inspection records and comparing different categories, while still having clear limits. For example, the GRADE column contains categories such as A, B, and C, it is a catagory, not a number that can be quantified. Also, the inspectation focuses on a limited dimension.
+The dataset it also useful for asking questions about restaurant inspection records and comparing different categories, while still having clear limits. For instance, the grading for some restaurants remain empty, that is unknown for us and cannot be count into the different catagories. Another thing is that the GRADE column contains categories such as A, B, and C, it is a catagory, not a number that can be quantified. Also, the inspectation focuses on a limited dimension. 
 
 The dataset is available through NYC Open Data: https://data.cityofnewyork.us/Health/NYC-Restaurant-Inspection-Results/gv23-aida
 

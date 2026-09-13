@@ -55,4 +55,4 @@ This works because we can filter rows using two conditions: BORO must be "Manhat
 
 What the Data Cannot Answer
 
-A question I might want to answer is: “Which restaurant is the best restaurant in New York City?” This dataset cannot answer that because the grading is based on simple letter rather than exact scores to compare. So it is hard to compare restaurants with the same letter grade. 
+A question I might want to answer is: “Which restaurant is the best restaurant in New York City?” This dataset cannot answer that because the grading is based on simple letter rather than exact scores to compare. So it is hard to compare restaurants with the same letter grade. Some grading results as well as grading details are missing, making it confusing for the grading criteria. The simple way of grading with letter could be confusing because many restaurants shares the same grading results and it is hard for the consumers to tell what exactly are they good at or better than others.
